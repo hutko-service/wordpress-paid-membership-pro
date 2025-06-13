@@ -1,0 +1,53 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore Composer and NPM dependencies if not needed
+/vendor/
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Ignore build files (if using build tools)
+/dist/
+/build/
+
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+/wp-content/themes/
+/wp-content/uploads/
+
+# Optional: ignore translation files if generated from source
+*.mo
+
+# Optional: ignore config files that shouldn't be versioned
+wp-config.php
+.env
+.env.local
+
+# Ignore backups
+*.sql
+*.zip
+*.tar.gz
+
+# Ignore PHPUnit and other test output
+.phpunit.result.cache
+/tests/_output/
+coverage.xml
+coverage/
+
+# Ignore plugin zip if building
+*.zip
