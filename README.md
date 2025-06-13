@@ -1,15 +1,19 @@
 Hutko Paid Memberships Pro plugin
 =========
 
-# EN
+<p align="center">
+  <img width="100" height="100" src="https://avatars.githubusercontent.com/u/202980012?s=48&v=4">
+</p>
 
-== Installation ==
+Register [https://portal.hutko.org/#/account/create](https://portal.hutko.org/#/account/create)
+
+*Installation*
 
 1. Ensure you have latest version of plugin installed (Paid memberships Pro)
 2. Upload the plugin files to the `/wp-content/plugins/`(or upload the plugin zip file using wp-admin.)
 3. Activate the plugin through the 'Plugins' menu.
 
-== Configuration ==
+*Configuration*
 
 1. Go to "Memberships > Payment Gateway & SSL Settings".
 2. Choose method "Hutko". If it doesn't exist - activate the plugin.
